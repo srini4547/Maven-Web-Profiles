@@ -44,7 +44,8 @@
 			</properties>
 		</profile>
 	</profiles>
-<build>
+
+	<build>
 		<filters>
 			<filter>src/main/resources/${env}/application.properties</filter>
 		</filters>
@@ -72,10 +73,11 @@
 					<version>2.1.1</version>
 					<configuration>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
-						<warName>${env}</warName>
+						<warName>TEST</warName>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
+
 </project>
